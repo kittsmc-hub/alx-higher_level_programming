@@ -1,4 +1,4 @@
-/**
+/**Write a function in C that checks if a singly linked list has a cycle in it.:
   * check_cycle - checks if a linked list contains a cycle
   * @list: linked list to check
   *
@@ -6,10 +6,10 @@
   */
 int check_cycle(listint_t *list)
 {
-	listint_t *slow = list;
-	listint_t *fast = list;
+	listint_t *tempNode1 = list;
+	listint_t *tempNode2 = list;
 
-	if (!list)
+	if (tempNode2==null)
 		return (0);
 
 	while (slow && fast && fast->next)
