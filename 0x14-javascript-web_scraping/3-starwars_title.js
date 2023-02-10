@@ -14,4 +14,3 @@ request(API_URL + episodeNum, function (err, response, body) {
     console.log('Error code: ' + response.statusCode);
   }
 });
-
